@@ -64,7 +64,7 @@ int sumaLista(List *L) {
       suma += *num;
       num = next(L);
    }
-   return 0;
+   return suma;
 }
 
 /*
@@ -130,6 +130,6 @@ int parentesisBalanceados(char *cadena) {
 
       }
    }
-   return 1;
+   return 0;
 }
 
