@@ -124,8 +124,10 @@ int parentesisBalanceados(char *cadena) {
       else if (paren == ')' || paren == ']' || paren == '}') {
          if (top(P) == NULL) return 0;
          char *topParen = (char*)pop(P);
-         if (paren == ')' && *topParen != '(' || paren == ']' && *topParen != '['
-         || paren == '}' && *topParen != '{') return 0;
+         if ((paren == ')' && *topParen != '(') || 
+         (paren == ']' && *topParen != '[') || 
+         (paren == '}' && *topParen != '{')) return 0;
+
       }
    }
    return 1;

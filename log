@@ -30,3 +30,9 @@ exercises.c:128:26: error: suggest parentheses around '&&' within '||' [-Werror=
 cc1.exe: all warnings being treated as errors
 Compilation failed
 0e55b23
+vi., 21 de mar. de 2025 19:13:01: 
+ exercises.c | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+ tests:  4|2
+total_score: 40/70
+bd580dd
