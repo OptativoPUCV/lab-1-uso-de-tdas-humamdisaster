@@ -1,0 +1,18 @@
+vi., 21 de mar. de 2025 19:09:29: 
+ exercises.c | 45 +++++++++++++++++++++++++++++++++++++++++++--
+ 1 file changed, 43 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crea_lista':
+exercises.c:49:7: error: implicit declaration of function 'push_back' [-Werror=implicit-function-declaration]
+       push_back(L, num);
+       ^~~~~~~~~
+exercises.c: In function 'parentesisBalanceados':
+exercises.c:127:27: error: suggest parentheses around '&&' within '||' [-Werror=parentheses]
+          if (paren == ')' && *topParen != '(' || paren == ']' && *topParen != '['
+              ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+exercises.c:128:26: error: suggest parentheses around '&&' within '||' [-Werror=parentheses]
+          || paren == '}' && *topParen != '{') return 0;
+             ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+3f6cb15
